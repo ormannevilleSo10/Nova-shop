@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Configuration de la page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NOVA SHOP - Boutique en ligne</title>
+
+    <!-- Bibliothèque Bootstrap -->
+     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fichier CSS personnalisé -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= BARRE DE NAVIGATION ================= -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold" href="#accueil">
+                    NOVA SHOP
+                </a>
+
+                <!-- Bouton menu mobile -->
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuNavigation"
+                    aria-controls="menuNavigation"
+                    aria-expanded="false"
+                    aria-label="Afficher le menu">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Liens de navigation -->
+
+                <div class="collapse navbar-collapse" id="menuNavigation">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#accueil">Accueil</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produits">Produits</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#apropos">À propos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= SECTION HERO ================= -->
+
+    <section id="accueil" class="hero">
+        <div class="container text-center">
+            <h1>Bienvenue chez NOVA SHOP</h1>
+
+            <p>
+                Découvrez des produits de qualité
+                au meilleur prix.
+            </p>
+
+            <a href="#produits" class="btn btn-light btn-lg">
+                Découvrir nos produits
+            </a>
+        </div>
+    </section>
+
+    <!-- ================= SECTION PRODUITS ================= -->
+
+    <section id="produits" class="py-5">
+        <div class="container">
+
+            <h2 class="text-center mb-5">
+                Nos produits populaires
+            </h2>
+
+            <div class="row g-4">
+
+                <!-- PRODUIT 1 -->
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card h-100">
+
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+                            alt="Chaussure sportive"
+                            class="product-image">
+
+                        <div class="product-content">
+                            <h3>Chaussures sport</h3>
+
+                            <p>
+                                Des chaussures confortables
+                                pour vos activités.
+                            </p>
+
+                            <p class="price">25 000 FCFA</p>
+
+                            <a href="#contact" class="btn btn-dark">
+                                Acheter maintenant
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- PRODUIT 2 -->
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card h-100">
+
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+                            alt="Montre élégante"
+                            class="product-image">
+
+                        <div class="product-content">
+                            <h3>Montre élégante</h3>
+
+                            <p>
+                                Une montre moderne
+                                pour toutes les occasions.
+                            </p>
+
+                            <p class="price">18 000 FCFA</p>
+
+                            <a href="#contact" class="btn btn-dark">
+                                Acheter maintenant
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- PRODUIT 3 -->
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card h-100">
+
+                        <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80"
+                            alt="Sac à main"
+                            class="product-image">
+
+                        <div class="product-content">
+                            <h3>Sac à main</h3>
+
+                            <p>
+                                Un sac chic et pratique
+                                pour le quotidien.
+                            </p>
+
+                            <p class="price">20 000 FCFA</p>
+
+                            <a href="#contact" class="btn btn-dark">
+                                Acheter maintenant
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- PRODUIT 4 -->
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card h-100">
+
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+                            alt="Casque audio"
+                            class="product-image">
+
+                        <div class="product-content">
+                            <h3>Casque audio</h3>
+
+                            <p>
+                                Profitez d'un son de qualité
+                                avec ce casque.
+                            </p>
+
+                            <p class="price">15 000 FCFA</p>
+
+                            <a href="#contact" class="btn btn-dark">
+                                Acheter maintenant
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= A PROPOS ================= -->
+
+    <section id="apropos" class="about-section py-5">
+        <div class="container text-center">
+            <h2>À propos de NOVA SHOP</h2>
+
+            <p>
+                NOVA SHOP est une boutique en ligne qui propose
+                des produits de qualité, un service accessible
+                et une expérience d'achat simple et agréable.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="py-5">
+        <div class="container">
+
+            <h2 class="text-center mb-4">Contactez-nous</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+
+                    <form>
+
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">
+                                Votre nom
+                            </label>
+
+                            <input type="text" id="nom"
+                                class="form-control"
+                                placeholder="Entrez votre nom"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">
+                                Votre email
+                            </label>
+
+                            <input type="email" id="email"
+                                class="form-control"
+                                placeholder="Entrez votre email"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">
+                                Votre message
+                            </label>
+
+                            <textarea id="message"
+                                class="form-control"
+                                rows="4"
+                                placeholder="Votre message"
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-dark w-100">
+                            Envoyer
+                        </button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PIED DE PAGE ================= -->
+
+    <footer class="footer text-center py-4">
+        <div class="container">
+
+            <p>Suivez-nous sur les réseaux sociaux</p>
+
+            <div class="social-links mb-3">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                |
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+                |
+                <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a>
+            </div>
+
+            <p class="mb-0">
+                &copy; 2026 NOVA SHOP. Tous droits réservés.
+            </p>
+
+        </div>
+    </footer>
+
+    <!-- JavaScript Bootstrap pour le menu mobile -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
